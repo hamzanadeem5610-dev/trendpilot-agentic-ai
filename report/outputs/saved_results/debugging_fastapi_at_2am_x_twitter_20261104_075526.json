@@ -1,0 +1,301 @@
+{
+  "mode": "content",
+  "request": {
+    "topic": "Debugging FastAPI at 2am",
+    "core_topic": "Debugging FastAPI at 2am",
+    "platform": "X / Twitter",
+    "tone": "Funny",
+    "output_type": "Short post"
+  },
+  "created_at": "2026-11-04 07:55:26",
+  "model": "gemma3:4b",
+  "prompt_version": "v2",
+  "plan": [
+    {
+      "tool": "trend_idea_generator",
+      "reason": "Generate viral content angles for the topic and platform."
+    },
+    {
+      "tool": "caption_writer",
+      "reason": "Write the hook, full post caption and CTA."
+    },
+    {
+      "tool": "hashtag_generator",
+      "reason": "Generate relevant hashtags."
+    },
+    {
+      "tool": "content_reviewer",
+      "reason": "Review the content for quality and platform readiness."
+    },
+    {
+      "tool": "file_saver",
+      "reason": "Save the final result as Markdown + JSON."
+    }
+  ],
+  "plan_fixes": [],
+  "artifacts": {
+    "memory_hits": [
+      {
+        "topic": "Debugging FastAPI",
+        "platform": "X / Twitter",
+        "tone": "Funny",
+        "hook": "FastAPI debugging feels like wrestling a Python dragon. 🐉",
+        "similarity": 0.77
+      }
+    ],
+    "memory_notes": "Previous topic: Debugging FastAPI (X / Twitter, Funny); hook used: \"FastAPI debugging feels like wrestling a Python dragon. 🐉\" -> use a fresh angle and a different hook.",
+    "research": "FastAPI Debugging Guide: Tips & Examples for Developers: In this tutorial, we'll explore various techniques and strategies for debugging FastAPI applications, complete with Python code snippets to illustrate these con || My Python App Broke at 2AM. These 3 Debugging Tools Saved It.: Mar 16, 2026 · Follow me for real-world Python and FastAPI problems with practical fixes. And if a debugging tool has ever saved you time, drop it in the commen || FastAPI (@FastAPI) / X: Sep 1, 2020 · FastAPI 0.147.0 improves HTML checkbox handling Omitted boolean form fields now become False, even with a True or None default. This matches how b || 7 FastAPI Tips That Saved Me Hours of Debugging: May 11, 2026 · I've been building APIs with FastAPI for over two years. Here are the tips that genuinely saved me from debugging headaches — especially the ones || Debugging - FastAPI: Run your code with your debugg",
+    "research_sources": [
+      "https://www.getorchestra.io/guides/fastapi-debugging-a-comprehensive-guide-with-examples",
+      "https://blog.stackademic.com/i-tested-7-python-debugging-tools-these-3-work-fd5c3246922d",
+      "https://x.com/FastAPI",
+      "https://dev.to/suifeng023/7-fastapi-tips-that-saved-me-hours-of-debugging-97o",
+      "https://fastapi.tiangolo.com/tutorial/debugging/"
+    ],
+    "understanding": {
+      "target_audience": "FastAPI developers, Python developers, students learning FastAPI",
+      "key_message": "2 AM FastAPI debugging? Don't panic. It's a rite of passage.",
+      "goal": "Entertain and provide a relatable experience for developers struggling with debugging.",
+      "specific_details": [
+        "Debugging FastAPI feels like wrestling a Python dragon.",
+        "FastAPI applications can break unexpectedly.",
+        "A debugging tool has been known to save developers time.",
+        "FastAPI 0.147.0 improves HTML checkbox handling.",
+        "Running your code with a debugger is a common technique."
+      ],
+      "avoid": [
+        "Generic advice about debugging",
+        "Overly technical jargon",
+        "Promising a 'solution'",
+        "Using clichés"
+      ]
+    },
+    "target_audience": "FastAPI developers, Python developers, students learning FastAPI",
+    "ideas": [
+      {
+        "title": "2 AM FastAPI Panic?",
+        "angle": "Relatable struggle – everyone’s been there.",
+        "hook_idea": "Debugging FastAPI feels like wrestling a Python dragon. 🐉",
+        "why_it_works": "Humorous, instantly relatable to developers, uses an emoji to grab attention.",
+        "score": 9
+      },
+      {
+        "title": "Checkbox Chaos",
+        "angle": "Highlighting a specific bug fix – the HTML checkbox issue.",
+        "hook_idea": "FastAPI 0.147.0: HTML checkbox handling is finally smooth!",
+        "why_it_works": "Focuses on a tangible improvement, appeals to those familiar with the version.",
+        "score": 7
+      },
+      {
+        "title": "The 2 AM Debugging Ritual",
+        "angle": "Normalizing the experience – it's a rite of passage.",
+        "hook_idea": "2 AM FastAPI debugging? Don’t panic. It’s a rite of passage.",
+        "why_it_works": "Straightforward, reassuring, taps into shared experiences.",
+        "score": 8
+      },
+      {
+        "title": "Tool Time!",
+        "angle": "Suggesting a practical solution – debugging tools.",
+        "hook_idea": "A debugging tool has been known to save developers time.",
+        "why_it_works": "Offers a helpful tip without over-promising, focuses on efficiency.",
+        "score": 6
+      },
+      {
+        "title": "Run That Code!",
+        "angle": "Emphasizing a fundamental technique.",
+        "hook_idea": "Running your code with a debugger is a common technique.",
+        "why_it_works": "Provides a concise reminder of a core skill, useful for learners.",
+        "score": 5
+      }
+    ],
+    "content_idea": {
+      "title": "2 AM FastAPI Panic?",
+      "angle": "Relatable struggle – everyone’s been there.",
+      "hook_idea": "Debugging FastAPI feels like wrestling a Python dragon. 🐉",
+      "why_it_works": "Humorous, instantly relatable to developers, uses an emoji to grab attention.",
+      "score": 9
+    },
+    "hook": "Debugging FastAPI at 2am? Don't panic. It's a rite of passage.",
+    "caption": "Debugging FastAPI feels like wrestling a Python dragon. 🐉 FastAPI applications can break unexpectedly. Running your code with a debugger is a common technique. It's a rite of passage!",
+    "call_to_action": "What's your 2 AM FastAPI story?",
+    "hashtags": [
+      "#FastAPI",
+      "#PythonDebugging"
+    ],
+    "review": {
+      "scores": {
+        "hook_strength": 7.0,
+        "clarity": 8.0,
+        "length_fit": 9.0,
+        "tone_fit": 9.0,
+        "hashtag_relevance": 8.0,
+        "platform_readiness": 8.5
+      },
+      "llm_overall": 8.2,
+      "overall": 8.2,
+      "verdict": "ready",
+      "issues": [
+        "The caption is slightly repetitive – 'It's a rite of passage!' is used twice.",
+        "Could benefit from a slightly more relatable, less dramatic description of the debugging experience."
+      ],
+      "suggestions": [
+        "Replace 'wrestling a Python dragon' with a more specific, humorous image of the debugging process (e.g., staring intensely at a screen).",
+        "Shorten the caption to focus on the immediate feeling of frustration and the helpfulness of debugging."
+      ],
+      "rule_issues": [],
+      "rewrite": []
+    },
+    "saved_files": {
+      "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/debugging_fastapi_at_2am_x_twitter_20261104_075526_post.md",
+      "json": "/content/agentic_ai_task_2/outputs/saved_results/debugging_fastapi_at_2am_x_twitter_20261104_075526.json"
+    }
+  },
+  "review": {
+    "scores": {
+      "hook_strength": 7.0,
+      "clarity": 8.0,
+      "length_fit": 9.0,
+      "tone_fit": 9.0,
+      "hashtag_relevance": 8.0,
+      "platform_readiness": 8.5
+    },
+    "llm_overall": 8.2,
+    "overall": 8.2,
+    "verdict": "ready",
+    "issues": [
+      "The caption is slightly repetitive – 'It's a rite of passage!' is used twice.",
+      "Could benefit from a slightly more relatable, less dramatic description of the debugging experience."
+    ],
+    "suggestions": [
+      "Replace 'wrestling a Python dragon' with a more specific, humorous image of the debugging process (e.g., staring intensely at a screen).",
+      "Shorten the caption to focus on the immediate feeling of frustration and the helpfulness of debugging."
+    ],
+    "rule_issues": [],
+    "rewrite": []
+  },
+  "revisions": 0,
+  "tools_used": [
+    "Simple Memory Tool",
+    "Web Trend Research (DuckDuckGo)",
+    "Trend Idea Generator",
+    "Caption Writer",
+    "Hashtag Generator",
+    "Content Reviewer"
+  ],
+  "trace": [
+    {
+      "t": "07:54:55",
+      "kind": "tool",
+      "name": "Simple Memory Tool",
+      "detail": {
+        "recalled_runs": 1,
+        "preferences": {
+          "favourite_platform": "LinkedIn",
+          "favourite_tone": "Funny"
+        }
+      },
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:54:57",
+      "kind": "tool",
+      "name": "Web Trend Research (DuckDuckGo)",
+      "detail": {
+        "results": 5,
+        "query": "Debugging FastAPI at 2am X / Twitter tips"
+      },
+      "seconds": 1.17,
+      "ok": true
+    },
+    {
+      "t": "07:55:01",
+      "kind": "step",
+      "name": "Understand goal",
+      "detail": {
+        "audience": "FastAPI developers, Python developers, students learning FastAPI"
+      },
+      "seconds": 4.16,
+      "ok": true
+    },
+    {
+      "t": "07:55:04",
+      "kind": "plan",
+      "name": "Planner agent",
+      "detail": "trend_idea_generator -> caption_writer -> hashtag_generator -> content_reviewer -> file_saver",
+      "seconds": 3.06,
+      "ok": true
+    },
+    {
+      "t": "07:55:14",
+      "kind": "tool",
+      "name": "Trend Idea Generator",
+      "detail": {
+        "angles": 5,
+        "selected": "2 AM FastAPI Panic?"
+      },
+      "seconds": 10.15,
+      "ok": true
+    },
+    {
+      "t": "07:55:19",
+      "kind": "tool",
+      "name": "Caption Writer",
+      "detail": {
+        "hook_words": 11,
+        "caption_words": 29
+      },
+      "seconds": 5.19,
+      "ok": true
+    },
+    {
+      "t": "07:55:20",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 2
+      },
+      "seconds": 0.92,
+      "ok": true
+    },
+    {
+      "t": "07:55:26",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 8.2,
+        "verdict": "ready",
+        "rule_issues": 0,
+        "rewrite": []
+      },
+      "seconds": 5.77,
+      "ok": true
+    }
+  ],
+  "saved_files": {
+    "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/debugging_fastapi_at_2am_x_twitter_20261104_075526_post.md",
+    "json": "/content/agentic_ai_task_2/outputs/saved_results/debugging_fastapi_at_2am_x_twitter_20261104_075526.json"
+  },
+  "final_output": {
+    "topic": "Debugging FastAPI at 2am",
+    "platform": "X / Twitter",
+    "tone": "Funny",
+    "content_idea": "2 AM FastAPI Panic? - Relatable struggle – everyone’s been there.",
+    "target_audience": "FastAPI developers, Python developers, students learning FastAPI",
+    "hook": "Debugging FastAPI at 2am? Don't panic. It's a rite of passage.",
+    "caption": "Debugging FastAPI feels like wrestling a Python dragon. 🐉 FastAPI applications can break unexpectedly. Running your code with a debugger is a common technique. It's a rite of passage!",
+    "hashtags": [
+      "#FastAPI",
+      "#PythonDebugging"
+    ],
+    "reel_script": "",
+    "title": "",
+    "thumbnail_text": "",
+    "review_comments": [
+      "Replace 'wrestling a Python dragon' with a more specific, humorous image of the debugging process (e.g., staring intensely at a screen).",
+      "Shorten the caption to focus on the immediate feeling of frustration and the helpfulness of debugging."
+    ],
+    "review_score": 8.2,
+    "saved_file": "/content/agentic_ai_task_2/outputs/generated_posts/debugging_fastapi_at_2am_x_twitter_20261104_075526_post.md"
+  }
+}

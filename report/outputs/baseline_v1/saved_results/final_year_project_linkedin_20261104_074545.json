@@ -1,0 +1,473 @@
+{
+  "mode": "content",
+  "request": {
+    "topic": "Final year project",
+    "core_topic": "Final year project",
+    "platform": "LinkedIn",
+    "tone": "Professional",
+    "output_type": "Portfolio post"
+  },
+  "created_at": "2026-11-04 07:45:45",
+  "model": "gemma3:4b",
+  "prompt_version": "v1",
+  "plan": [
+    {
+      "tool": "trend_idea_generator",
+      "reason": "Generate 5 viral content angles for the topic and platform, score them and select the best one."
+    },
+    {
+      "tool": "caption_writer",
+      "reason": "Write the hook, the full platform-ready post caption and a call to action in the requested tone."
+    },
+    {
+      "tool": "hashtag_generator",
+      "reason": "Generate relevant hashtags for the platform (right count, broad + niche, no spam tags)."
+    },
+    {
+      "tool": "content_reviewer",
+      "reason": "Review the content (hook strength, clarity, length, tone, hashtag relevance, platform readiness) and decide what to improve."
+    },
+    {
+      "tool": "file_saver",
+      "reason": "Save the final result as Markdown + JSON in outputs/ (posts, scripts, full results). Mandatory last step."
+    }
+  ],
+  "plan_fixes": [
+    "v1 baseline uses a fixed pipeline (no LLM planner)"
+  ],
+  "artifacts": {
+    "memory_hits": [
+      {
+        "topic": "Machine learning project",
+        "platform": "X / Twitter",
+        "tone": "Short and catchy",
+        "hook": "🤯 20% more accurate than anything we've seen before!",
+        "similarity": 0.2
+      }
+    ],
+    "memory_notes": "Previous topic: Machine learning project (X / Twitter, Short and catchy); hook used: \"🤯 20% more accurate than anything we've seen before!\" -> use a fresh angle and a different hook.",
+    "research": "",
+    "understanding": {
+      "target_audience": "Professionals in [Relevant Industry - e.g., Engineering, Computer Science, Business, etc.], University Students, Professors, Recruiters, Alumni",
+      "key_message": "Highlighting the skills and knowledge gained during a final year project, showcasing the project's impact and potential career applications.",
+      "goal": "Increase visibility and engagement, potentially leading to: \n*   **Networking:** Connect with professionals in the field or those interested in similar projects.\n*   **Recruitment:** Attract the attention of recruiters or companies seeking individuals with the skills demonstrated in the project.\n*   **Recognition:** Showcase your accomplishment and build your professional profile.\n*   **Feedback:**  Solicit feedback on the project or your approach (optional, but can foster discussion).",
+      "specific_details": [
+        "Focus on the problem solved, the methodology used, and the results achieved.",
+        "Quantify the results whenever possible (e.g., 'improved efficiency by X%', 'reduced costs by Y').",
+        "Use relevant hashtags to increase visibility (e.g., #finalyearproject #university #engineering # [relevant industry hashtag] #projectmanagement #innovation).",
+        "Include a visually appealing image or video of the project (if applicable)."
+      ],
+      "avoid": [
+        "Overly technical jargon that might not be understood by a broader audience.",
+        "Excessive self-promotion without context.",
+        "Neglecting to acknowledge any collaborators or supervisors."
+      ]
+    },
+    "target_audience": "Undergraduate and postgraduate students undertaking final year projects, academic staff and researchers",
+    "ideas": [
+      {
+        "title": "Decoding the Dissertation: Final Year Project Secrets",
+        "angle": "Reveals common pitfalls and strategies for successful completion, focusing on time management, seeking mentorship, and presenting your research effectively. Includes a poll asking users about their biggest project struggles.",
+        "hook_idea": "‘Is your final year project looming? Don't let it consume you! 🚀 We're sharing insights from experienced researchers to help you conquer your project with confidence.’",
+        "why_it_works": "Addresses a universal pain point - the stress of final year projects - and offers actionable advice. The poll encourages engagement.",
+        "score": 85
+      },
+      {
+        "title": "Level Up Your Research: Tools & Techniques for Final Year Projects",
+        "angle": "Showcases productivity tools, research methodologies, and data analysis techniques relevant to final year projects. Short video tutorial demonstrating a helpful tool.",
+        "hook_idea": "‘Boost your research game! 💡 Discover the tools and techniques that will transform your final year project from a struggle to a success. #research #productivity #finalyearproject’",
+        "why_it_works": "Provides practical value and demonstrates expertise. Videos perform well on LinkedIn.",
+        "score": 78
+      },
+      {
+        "title": "Networking for Success: Building Connections During Your Final Year Project",
+        "angle": "Highlights the importance of networking with faculty, industry professionals, and fellow students. Shares tips on attending conferences and workshops. ",
+        "hook_idea": "‘Your network is your net worth! 🤝 Connect with experts and peers to elevate your final year project. #networking #research #connections’",
+        "why_it_works": "Focuses on a crucial aspect of academic success - building relationships.  Strong hashtag usage.",
+        "score": 72
+      },
+      {
+        "title": "From Idea to Presentation: A Step-by-Step Guide to Final Year Project Delivery",
+        "angle": "Breaks down the entire project lifecycle – ideation, research, writing, and presentation – with clear, actionable steps. Includes a downloadable checklist.",
+        "hook_idea": "‘Don't let your final year project fall apart! ➡️ Get a step-by-step guide to deliver a flawless presentation. #projectmanagement #finalyearproject #researchguide’",
+        "why_it_works": "Provides a comprehensive overview and a tangible resource (checklist).",
+        "score": 80
+      },
+      {
+        "title": "Behind the Scenes: A Day in the Life of a Final Year Project Researcher",
+        "angle": "Offers a glimpse into the daily routine of a student working on their final year project – showcasing both the challenges and rewards.  Could be a short video or carousel post.",
+        "hook_idea": "‘Ever wonder what it takes to complete a final year project? 🧐 Join us for a ‘Day in the Life’ to see the dedication, hard work, and moments of triumph! #finalyearproject #researchlife #studentlife’",
+        "why_it_works": "Provides a relatable and authentic perspective.  ‘Day in the Life’ content is consistently popular.",
+        "score": 75
+      }
+    ],
+    "content_idea": {
+      "title": "Decoding the Dissertation: Final Year Project Secrets",
+      "angle": "Reveals common pitfalls and strategies for successful completion, focusing on time management, seeking mentorship, and presenting your research effectively. Includes a poll asking users about their biggest project struggles.",
+      "hook_idea": "‘Is your final year project looming? Don't let it consume you! 🚀 We're sharing insights from experienced researchers to help you conquer your project with confidence.’",
+      "why_it_works": "Addresses a universal pain point - the stress of final year projects - and offers actionable advice. The poll encourages engagement.",
+      "score": 85
+    },
+    "hook": "Thrilled to finally share the culmination of a challenging and rewarding journey!",
+    "caption": "Just wrapped up my final year project – a [Project Name] focused on [briefly state the project's focus, e.g., developing a machine learning algorithm for predictive maintenance].  I’m incredibly proud of the team’s hard work, particularly our success in [mention 1-2 key achievements, quantifiable if possible, e.g., achieving 92% accuracy in our model, reducing processing time by 30%]. This experience has solidified my passion for [mention your field/area of interest] and taught me the importance of collaborative problem-solving and rigorous testing.  I'm now eager to apply these skills to new challenges! #FinalYearProject #Engineering #Innovation #MachineLearning #CapstoneProject #StudentLife #University #ProjectManagement #Tech #CareerGoals #Graduation",
+    "call_to_action": "Connect with me to discuss my project or learn more about my interests in [your field]!",
+    "hashtags": [
+      "#FinalYearProject",
+      "#EngineeringProject",
+      "#CapstoneProject",
+      "#Innovation",
+      "#UniversityLife",
+      "#ProjectManagement",
+      "#StudentAchievement"
+    ],
+    "review": {
+      "scores": {
+        "hook_strength": 8.0,
+        "clarity": 9.0,
+        "length_fit": 7.0,
+        "tone_fit": 10.0,
+        "hashtag_relevance": 6.0,
+        "platform_readiness": 8.5
+      },
+      "llm_overall": 8.2,
+      "overall": 6.95,
+      "verdict": "needs_revision",
+      "issues": [
+        "Hashtags are mixed into the caption text.",
+        "Numbers not given by the user: ['92%', '30%'] - may be invented.",
+        "7 hashtags; LinkedIn works best with 3-5.",
+        "Hashtags are mixed into the caption text.",
+        "Number of hashtags exceeds LinkedIn’s best practice."
+      ],
+      "suggestions": [
+        "Separate hashtags into a dedicated list for better readability.",
+        "Reduce the number of hashtags to 3-5 for optimal LinkedIn engagement."
+      ],
+      "rule_issues": [
+        {
+          "code": "hashtags_in_caption",
+          "tool": "caption_writer",
+          "message": "Hashtags are mixed into the caption text.",
+          "severity": "minor"
+        },
+        {
+          "code": "possible_invented_metric",
+          "tool": "caption_writer",
+          "message": "Numbers not given by the user: ['92%', '30%'] - may be invented.",
+          "severity": "minor"
+        },
+        {
+          "code": "too_many_hashtags",
+          "tool": "hashtag_generator",
+          "message": "7 hashtags; LinkedIn works best with 3-5.",
+          "severity": "major"
+        }
+      ],
+      "rewrite": [
+        "hashtag_generator"
+      ]
+    },
+    "review_history": [
+      {
+        "overall": 7.35,
+        "verdict": "needs_revision",
+        "issues": [
+          "15 hashtags; LinkedIn works best with 3-5.",
+          "Too many hashtags (15). LinkedIn best practices suggest 3-5.",
+          "The caption is a little lengthy for LinkedIn. While detail is good, it could be more concise."
+        ],
+        "rewrite": [
+          "caption_writer",
+          "hashtag_generator"
+        ]
+      },
+      {
+        "overall": 6.95,
+        "verdict": "needs_revision",
+        "issues": [
+          "Hashtags are mixed into the caption text.",
+          "Numbers not given by the user: ['92%', '30%'] - may be invented.",
+          "7 hashtags; LinkedIn works best with 3-5.",
+          "Hashtags are mixed into the caption text.",
+          "Number density is high - could benefit from more white space.",
+          "Hashtag count is slightly elevated."
+        ],
+        "rewrite": [
+          "hashtag_generator"
+        ]
+      }
+    ],
+    "saved_files": {
+      "markdown": "/content/agentic_ai_task_2/outputs/baseline_v1/generated_posts/final_year_project_linkedin_20261104_074545_post.md",
+      "json": "/content/agentic_ai_task_2/outputs/baseline_v1/saved_results/final_year_project_linkedin_20261104_074545.json"
+    }
+  },
+  "review": {
+    "scores": {
+      "hook_strength": 8.0,
+      "clarity": 9.0,
+      "length_fit": 7.0,
+      "tone_fit": 10.0,
+      "hashtag_relevance": 6.0,
+      "platform_readiness": 8.5
+    },
+    "llm_overall": 8.2,
+    "overall": 6.95,
+    "verdict": "needs_revision",
+    "issues": [
+      "Hashtags are mixed into the caption text.",
+      "Numbers not given by the user: ['92%', '30%'] - may be invented.",
+      "7 hashtags; LinkedIn works best with 3-5.",
+      "Hashtags are mixed into the caption text.",
+      "Number of hashtags exceeds LinkedIn’s best practice."
+    ],
+    "suggestions": [
+      "Separate hashtags into a dedicated list for better readability.",
+      "Reduce the number of hashtags to 3-5 for optimal LinkedIn engagement."
+    ],
+    "rule_issues": [
+      {
+        "code": "hashtags_in_caption",
+        "tool": "caption_writer",
+        "message": "Hashtags are mixed into the caption text.",
+        "severity": "minor"
+      },
+      {
+        "code": "possible_invented_metric",
+        "tool": "caption_writer",
+        "message": "Numbers not given by the user: ['92%', '30%'] - may be invented.",
+        "severity": "minor"
+      },
+      {
+        "code": "too_many_hashtags",
+        "tool": "hashtag_generator",
+        "message": "7 hashtags; LinkedIn works best with 3-5.",
+        "severity": "major"
+      }
+    ],
+    "rewrite": [
+      "hashtag_generator"
+    ]
+  },
+  "revisions": 2,
+  "tools_used": [
+    "Simple Memory Tool",
+    "Trend Idea Generator",
+    "Caption Writer",
+    "Hashtag Generator",
+    "Content Reviewer",
+    "Caption Writer",
+    "Hashtag Generator",
+    "Content Reviewer",
+    "Hashtag Generator",
+    "Content Reviewer"
+  ],
+  "trace": [
+    {
+      "t": "07:44:34",
+      "kind": "tool",
+      "name": "Simple Memory Tool",
+      "detail": {
+        "recalled_runs": 1,
+        "preferences": {
+          "favourite_platform": "LinkedIn",
+          "favourite_tone": "Meme style"
+        }
+      },
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:44:34",
+      "kind": "skip",
+      "name": "Web Trend Research (DuckDuckGo)",
+      "detail": {
+        "skipped": "web search disabled"
+      },
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:44:41",
+      "kind": "step",
+      "name": "Understand goal",
+      "detail": {
+        "audience": "Professionals in [Relevant Industry - e.g., Engineering, Computer Science, Busin"
+      },
+      "seconds": 7.01,
+      "ok": true
+    },
+    {
+      "t": "07:44:41",
+      "kind": "plan",
+      "name": "Planner agent",
+      "detail": "trend_idea_generator -> caption_writer -> hashtag_generator -> content_reviewer -> file_saver",
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:44:41",
+      "kind": "plan",
+      "name": "Plan check",
+      "detail": "v1 baseline uses a fixed pipeline (no LLM planner)",
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:45:15",
+      "kind": "tool",
+      "name": "Trend Idea Generator",
+      "detail": {
+        "angles": 5,
+        "selected": "Decoding the Dissertation: Final Year Project Secrets"
+      },
+      "seconds": 34.03,
+      "ok": true
+    },
+    {
+      "t": "07:45:20",
+      "kind": "tool",
+      "name": "Caption Writer",
+      "detail": {
+        "hook_words": 15,
+        "caption_words": 93
+      },
+      "seconds": 4.34,
+      "ok": true
+    },
+    {
+      "t": "07:45:22",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 15
+      },
+      "seconds": 2.03,
+      "ok": true
+    },
+    {
+      "t": "07:45:27",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 7.35,
+        "verdict": "needs_revision",
+        "rule_issues": 1,
+        "rewrite": [
+          "caption_writer",
+          "hashtag_generator"
+        ]
+      },
+      "seconds": 4.82,
+      "ok": true
+    },
+    {
+      "t": "07:45:27",
+      "kind": "revise",
+      "name": "Round 1",
+      "detail": "re-running ['caption_writer', 'hashtag_generator'] (score 7.35)",
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:45:31",
+      "kind": "tool",
+      "name": "Caption Writer",
+      "detail": {
+        "hook_words": 12,
+        "caption_words": 102
+      },
+      "seconds": 4.96,
+      "ok": true
+    },
+    {
+      "t": "07:45:33",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 7
+      },
+      "seconds": 1.43,
+      "ok": true
+    },
+    {
+      "t": "07:45:39",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 6.95,
+        "verdict": "needs_revision",
+        "rule_issues": 3,
+        "rewrite": [
+          "hashtag_generator"
+        ]
+      },
+      "seconds": 6.51,
+      "ok": true
+    },
+    {
+      "t": "07:45:39",
+      "kind": "revise",
+      "name": "Round 2",
+      "detail": "re-running ['hashtag_generator'] (score 6.95)",
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:45:41",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 7
+      },
+      "seconds": 1.43,
+      "ok": true
+    },
+    {
+      "t": "07:45:45",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 6.95,
+        "verdict": "needs_revision",
+        "rule_issues": 3,
+        "rewrite": [
+          "hashtag_generator"
+        ]
+      },
+      "seconds": 4.44,
+      "ok": true
+    }
+  ],
+  "saved_files": {
+    "markdown": "/content/agentic_ai_task_2/outputs/baseline_v1/generated_posts/final_year_project_linkedin_20261104_074545_post.md",
+    "json": "/content/agentic_ai_task_2/outputs/baseline_v1/saved_results/final_year_project_linkedin_20261104_074545.json"
+  },
+  "final_output": {
+    "topic": "Final year project",
+    "platform": "LinkedIn",
+    "tone": "Professional",
+    "content_idea": "Decoding the Dissertation: Final Year Project Secrets - Reveals common pitfalls and strategies for successful completion, focusing on time management, seeking mentorship, and presenting your research effectively. Includes a poll asking users about their biggest project struggles.",
+    "target_audience": "Undergraduate and postgraduate students undertaking final year projects, academic staff and researchers",
+    "hook": "Thrilled to finally share the culmination of a challenging and rewarding journey!",
+    "caption": "Just wrapped up my final year project – a [Project Name] focused on [briefly state the project's focus, e.g., developing a machine learning algorithm for predictive maintenance].  I’m incredibly proud of the team’s hard work, particularly our success in [mention 1-2 key achievements, quantifiable if possible, e.g., achieving 92% accuracy in our model, reducing processing time by 30%]. This experience has solidified my passion for [mention your field/area of interest] and taught me the importance of collaborative problem-solving and rigorous testing.  I'm now eager to apply these skills to new challenges! #FinalYearProject #Engineering #Innovation #MachineLearning #CapstoneProject #StudentLife #University #ProjectManagement #Tech #CareerGoals #Graduation",
+    "hashtags": [
+      "#FinalYearProject",
+      "#EngineeringProject",
+      "#CapstoneProject",
+      "#Innovation",
+      "#UniversityLife",
+      "#ProjectManagement",
+      "#StudentAchievement"
+    ],
+    "reel_script": "",
+    "title": "",
+    "thumbnail_text": "",
+    "review_comments": [
+      "Separate hashtags into a dedicated list for better readability.",
+      "Reduce the number of hashtags to 3-5 for optimal LinkedIn engagement."
+    ],
+    "review_score": 6.95,
+    "saved_file": "/content/agentic_ai_task_2/outputs/baseline_v1/generated_posts/final_year_project_linkedin_20261104_074545_post.md"
+  }
+}

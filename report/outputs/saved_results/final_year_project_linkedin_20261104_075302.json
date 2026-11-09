@@ -1,0 +1,317 @@
+{
+  "mode": "content",
+  "request": {
+    "topic": "Final year project",
+    "core_topic": "Final year project",
+    "platform": "LinkedIn",
+    "tone": "Professional",
+    "output_type": "Portfolio post"
+  },
+  "created_at": "2026-11-04 07:53:02",
+  "model": "gemma3:4b",
+  "prompt_version": "v2",
+  "plan": [
+    {
+      "tool": "trend_idea_generator",
+      "reason": "Generate fresh content angles for a LinkedIn post about final year projects."
+    },
+    {
+      "tool": "caption_writer",
+      "reason": "Write the LinkedIn post caption based on the selected angle, incorporating the provided guidelines."
+    },
+    {
+      "tool": "hashtag_generator",
+      "reason": "Generate relevant hashtags for the LinkedIn post."
+    },
+    {
+      "tool": "content_reviewer",
+      "reason": "Review the caption and hashtags for accuracy, tone, and platform suitability."
+    },
+    {
+      "tool": "file_saver",
+      "reason": "Save the final result as a Markdown file."
+    }
+  ],
+  "plan_fixes": [],
+  "artifacts": {
+    "memory_hits": [
+      {
+        "topic": "I want to create a viral LinkedIn post about my YOLOv8 helmet detection project",
+        "platform": "LinkedIn",
+        "tone": "Professional but exciting",
+        "hook": "I trained an AI to spot missing helmets. The hardest part wasn't the model - it was the data.",
+        "similarity": 0.24
+      },
+      {
+        "topic": "I want to create a viral LinkedIn post about my YOLOv8 helmet detection project",
+        "platform": "LinkedIn",
+        "tone": "Professional but exciting",
+        "hook": "I trained an AI to spot missing helmets. The hardest part wasn't the model - it was the data.",
+        "similarity": 0.24
+      },
+      {
+        "topic": "Machine learning project",
+        "platform": "X / Twitter",
+        "tone": "Short and catchy",
+        "hook": "Forget labeled datasets. Let’s build a massive X (Twitter) one.",
+        "similarity": 0.2
+      }
+    ],
+    "memory_notes": "Previous topic: I want to create a viral LinkedIn post about my YOLOv8 helmet detection project (LinkedIn, Professional but exciting); hook used: \"I trained an AI to spot missing helmets. The hardest part wasn't the model - it was the da\" | Previous topic: I want to create a viral LinkedIn post about my YOLOv8 helmet detection project (LinkedIn, Professional but exciting); hook used: \"I trained an AI to spot missing helmets. The hardest part wasn't the model - it was the da\" | Previous topic: Machine learning project (X / Twitter, Short and catchy); hook used: \"Forget labeled datasets. Let’s build a massive X (Twitter) one.\" -> use a fresh angle and a different hook.",
+    "research": "How to Add Final Year Projects to Your Resume & LinkedIn for ...: Feb 16, 2026 · For many students, final year projects are treated as an academic requirement. But smart candidates know that final year projects can become powe || The Ultimate Guide to Ace Your Final Year Project: Tips ...: Nov 26, 2024 · In this article, I’ll be sharing a complete guide for final-year students who are about to start or have started developing their final-year proj || How to pick and execute a final-year project you ... - LinkedIn: Sep 20, 2025 · Here’s my honest answer: Don’t pick a project just to earn credits. Pick one you’ll be proud to tell as your story in every interview, networking || How to Showcase Academic Projects as Work Experience on LinkedIn: Jul 14, 2026 · In this guide, you'll learn how to showcase academic projects as work experience on LinkedIn, write compelling project descriptions, av",
+    "research_sources": [
+      "https://medium.com/@ansprotech.blr/how-to-add-final-year-projects-to-your-resume-linkedin-for-maximum-recruiter-impact-99857184fe7d",
+      "https://www.linkedin.com/pulse/ultimate-guide-ace-your-final-year-project-tips-tools-valeena-afzal-p6cff",
+      "https://www.linkedin.com/pulse/how-pick-execute-final-year-project-youll-proud-tell-rest-palande-w1uof",
+      "https://www.alwrity.com/post/showcase-your-academic-projects-as-work-experience-linkedin",
+      "https://www.tealhq.com/post/how-to-add-projects-to-linkedin"
+    ],
+    "understanding": {
+      "target_audience": "Recruiters, university career services, fellow students interested in AI and computer vision",
+      "key_message": "Transforming your final year project into a valuable asset for your career journey.",
+      "goal": "Highlight the project's relevance to professional opportunities and encourage engagement.",
+      "specific_details": [
+        "Final year projects are often treated as academic requirements.",
+        "Smart candidates leverage projects to demonstrate skills and passion.",
+        "It’s crucial to choose a project you’ll be proud to discuss in interviews.",
+        "Projects should be selected based on genuine interest, not just credit requirements.",
+        "Showcasing projects effectively on LinkedIn can significantly boost your profile."
+      ],
+      "avoid": [
+        "Generic statements about ‘innovation’ or ‘disruptive technology’",
+        "Overly technical jargon that might alienate a broader audience",
+        "Focusing solely on the technical aspects without relating them to career outcomes",
+        "Simply listing project features without context or impact"
+      ]
+    },
+    "target_audience": "Recruiters, university career services, and fellow students interested in AI and computer vision.",
+    "ideas": [
+      {
+        "title": "The Passion Project Paradox",
+        "angle": "Final year projects are often treated as academic requirements. Let’s flip that script.",
+        "hook_idea": "I trained an AI to spot missing helmets. The hardest part wasn’t the model – it was the initial lack of genuine interest.",
+        "why_it_works": "Starts with a relatable feeling - the pressure to fulfill requirements. The hook immediately grabs attention and highlights a key challenge.",
+        "score": 8
+      },
+      {
+        "title": "Beyond the Grade: Building Your Career Story",
+        "angle": "Smart candidates leverage projects to demonstrate skills and passion. How do you make yours stand out?",
+        "hook_idea": "Projects should be selected based on genuine interest, not just credit requirements.",
+        "why_it_works": "Positions the project as a career tool, appealing to recruiter interests. A direct, actionable takeaway.",
+        "score": 9
+      },
+      {
+        "title": "The Honest Truth About Final Year Projects",
+        "angle": "Don’t pick a project just to earn credits. Prioritize something you’ll genuinely want to discuss.",
+        "hook_idea": "It’s crucial to choose a project you’ll be proud to discuss in interviews.",
+        "why_it_works": "A slightly contrarian take – honest and relatable. Immediately addresses a common student concern.",
+        "score": 7
+      },
+      {
+        "title": "Showcase Secrets: LinkedIn Portfolio Hacks",
+        "angle": "Showcasing projects effectively on LinkedIn can significantly boost your profile. Let's get strategic.",
+        "hook_idea": "How to showcase academic projects as work experience on LinkedIn...",
+        "why_it_works": "Provides a practical guide and directly addresses how to maximize LinkedIn's value.",
+        "score": 6
+      },
+      {
+        "title": "Failure's a Feature: Learning from the Deep Dive",
+        "angle": "Mistakes are inevitable - especially in AI. What did I learn during this project?",
+        "hook_idea": "I spent [your mAP score] perfecting my helmet detection – and then realized something crucial.",
+        "why_it_works": "Acknowledges the human element and creates a relatable narrative. Introduces vulnerability, fostering trust.",
+        "score": 5
+      }
+    ],
+    "content_idea": {
+      "title": "Beyond the Grade: Building Your Career Story",
+      "angle": "Smart candidates leverage projects to demonstrate skills and passion. How do you make yours stand out?",
+      "hook_idea": "Projects should be selected based on genuine interest, not just credit requirements.",
+      "why_it_works": "Positions the project as a career tool, appealing to recruiter interests. A direct, actionable takeaway.",
+      "score": 9
+    },
+    "hook": "I trained an AI to spot missing helmets. The hardest part wasn’t the model.",
+    "caption": "I trained an AI to spot missing helmets. The hardest part wasn’t the model.\n\nFinal year projects are often treated as academic requirements. But smart candidates leverage projects to demonstrate skills and passion. It’s crucial to choose a project you’ll be proud to discuss in interviews. \n\nI spent months building a helmet detection system using YOLOv8. Picking a project based on genuine interest, not just credit requirements, made all the difference. The initial goal wasn’t [your mAP score] accuracy; it was understanding the challenges of real-world data – variations in lighting, helmet designs, and obstructions.\n\nShowing off this project effectively on LinkedIn can significantly boost your profile. Think about it: Recruiters are looking for evidence of your problem-solving abilities and technical skills. A well-crafted project description that highlights your process and results speaks volumes. \n\nDon’t just list features; tell a story. What problem did you solve? What were the key learnings? \n\nWhat’s one aspect of your final year project that you’re particularly proud of? Share in the comments!\n\nLet’s hear about your project!”} \n\n 🚀 💡",
+    "call_to_action": "Let’s hear about your project!”} \n\n 🚀 💡",
+    "hashtags": [
+      "#FinalYearProject",
+      "#ComputerVisionProjects",
+      "#YOLOv8Detection"
+    ],
+    "review": {
+      "scores": {
+        "hook_strength": 8.0,
+        "clarity": 9.0,
+        "length_fit": 9.0,
+        "tone_fit": 9.0,
+        "hashtag_relevance": 8.0,
+        "platform_readiness": 9.0
+      },
+      "llm_overall": 8.8,
+      "overall": 8.8,
+      "verdict": "ready",
+      "issues": [
+        "The 'Let’s hear about your project!’ closing is a little generic. It could be more targeted.",
+        "The paragraph about recruiters is slightly verbose and could be more concise."
+      ],
+      "suggestions": [
+        "Replace the closing with a more specific call to action, such as ‘What was the biggest technical hurdle you overcame?’",
+        "Condense the paragraph about recruiters to focus on the key takeaway: demonstrating problem-solving skills."
+      ],
+      "rule_issues": [],
+      "rewrite": []
+    },
+    "saved_files": {
+      "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/final_year_project_linkedin_20261104_075302_post.md",
+      "json": "/content/agentic_ai_task_2/outputs/saved_results/final_year_project_linkedin_20261104_075302.json"
+    }
+  },
+  "review": {
+    "scores": {
+      "hook_strength": 8.0,
+      "clarity": 9.0,
+      "length_fit": 9.0,
+      "tone_fit": 9.0,
+      "hashtag_relevance": 8.0,
+      "platform_readiness": 9.0
+    },
+    "llm_overall": 8.8,
+    "overall": 8.8,
+    "verdict": "ready",
+    "issues": [
+      "The 'Let’s hear about your project!’ closing is a little generic. It could be more targeted.",
+      "The paragraph about recruiters is slightly verbose and could be more concise."
+    ],
+    "suggestions": [
+      "Replace the closing with a more specific call to action, such as ‘What was the biggest technical hurdle you overcame?’",
+      "Condense the paragraph about recruiters to focus on the key takeaway: demonstrating problem-solving skills."
+    ],
+    "rule_issues": [],
+    "rewrite": []
+  },
+  "revisions": 0,
+  "tools_used": [
+    "Simple Memory Tool",
+    "Web Trend Research (DuckDuckGo)",
+    "Trend Idea Generator",
+    "Caption Writer",
+    "Hashtag Generator",
+    "Content Reviewer"
+  ],
+  "trace": [
+    {
+      "t": "07:52:27",
+      "kind": "tool",
+      "name": "Simple Memory Tool",
+      "detail": {
+        "recalled_runs": 3,
+        "preferences": {
+          "favourite_platform": "LinkedIn",
+          "favourite_tone": "Professional but exciting"
+        }
+      },
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:52:28",
+      "kind": "tool",
+      "name": "Web Trend Research (DuckDuckGo)",
+      "detail": {
+        "results": 5,
+        "query": "Final year project LinkedIn tips"
+      },
+      "seconds": 0.85,
+      "ok": true
+    },
+    {
+      "t": "07:52:33",
+      "kind": "step",
+      "name": "Understand goal",
+      "detail": {
+        "audience": "Recruiters, university career services, fellow students interested in AI and com"
+      },
+      "seconds": 4.96,
+      "ok": true
+    },
+    {
+      "t": "07:52:37",
+      "kind": "plan",
+      "name": "Planner agent",
+      "detail": "trend_idea_generator -> caption_writer -> hashtag_generator -> content_reviewer -> file_saver",
+      "seconds": 4.17,
+      "ok": true
+    },
+    {
+      "t": "07:52:49",
+      "kind": "tool",
+      "name": "Trend Idea Generator",
+      "detail": {
+        "angles": 5,
+        "selected": "Beyond the Grade: Building Your Career Story"
+      },
+      "seconds": 12.6,
+      "ok": true
+    },
+    {
+      "t": "07:52:56",
+      "kind": "tool",
+      "name": "Caption Writer",
+      "detail": {
+        "hook_words": 14,
+        "caption_words": 175
+      },
+      "seconds": 6.58,
+      "ok": true
+    },
+    {
+      "t": "07:52:57",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 3
+      },
+      "seconds": 0.84,
+      "ok": true
+    },
+    {
+      "t": "07:53:02",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 8.8,
+        "verdict": "ready",
+        "rule_issues": 0,
+        "rewrite": []
+      },
+      "seconds": 5.02,
+      "ok": true
+    }
+  ],
+  "saved_files": {
+    "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/final_year_project_linkedin_20261104_075302_post.md",
+    "json": "/content/agentic_ai_task_2/outputs/saved_results/final_year_project_linkedin_20261104_075302.json"
+  },
+  "final_output": {
+    "topic": "Final year project",
+    "platform": "LinkedIn",
+    "tone": "Professional",
+    "content_idea": "Beyond the Grade: Building Your Career Story - Smart candidates leverage projects to demonstrate skills and passion. How do you make yours stand out?",
+    "target_audience": "Recruiters, university career services, and fellow students interested in AI and computer vision.",
+    "hook": "I trained an AI to spot missing helmets. The hardest part wasn’t the model.",
+    "caption": "I trained an AI to spot missing helmets. The hardest part wasn’t the model.\n\nFinal year projects are often treated as academic requirements. But smart candidates leverage projects to demonstrate skills and passion. It’s crucial to choose a project you’ll be proud to discuss in interviews. \n\nI spent months building a helmet detection system using YOLOv8. Picking a project based on genuine interest, not just credit requirements, made all the difference. The initial goal wasn’t [your mAP score] accuracy; it was understanding the challenges of real-world data – variations in lighting, helmet designs, and obstructions.\n\nShowing off this project effectively on LinkedIn can significantly boost your profile. Think about it: Recruiters are looking for evidence of your problem-solving abilities and technical skills. A well-crafted project description that highlights your process and results speaks volumes. \n\nDon’t just list features; tell a story. What problem did you solve? What were the key learnings? \n\nWhat’s one aspect of your final year project that you’re particularly proud of? Share in the comments!\n\nLet’s hear about your project!”} \n\n 🚀 💡",
+    "hashtags": [
+      "#FinalYearProject",
+      "#ComputerVisionProjects",
+      "#YOLOv8Detection"
+    ],
+    "reel_script": "",
+    "title": "",
+    "thumbnail_text": "",
+    "review_comments": [
+      "Replace the closing with a more specific call to action, such as ‘What was the biggest technical hurdle you overcame?’",
+      "Condense the paragraph about recruiters to focus on the key takeaway: demonstrating problem-solving skills."
+    ],
+    "review_score": 8.8,
+    "saved_file": "/content/agentic_ai_task_2/outputs/generated_posts/final_year_project_linkedin_20261104_075302_post.md"
+  }
+}

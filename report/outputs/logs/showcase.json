@@ -1,0 +1,10 @@
+{
+  "model": "gemma3:4b",
+  "ollama_version": "0.40.14",
+  "gpu": "Tesla T4, 15360 MiB",
+  "example_json": "/content/agentic_ai_task_2/outputs/saved_results/yolov8_helmet_detection_project_linkedin_20261104_073420.json",
+  "revised_json": "outputs/logs/revised_example.json",
+  "feedback": "Make the hook shorter and more surprising, and add one line about what I learned from the project.",
+  "study_json": "outputs/logs/study_example.json",
+  "manual_notes": {}
+}

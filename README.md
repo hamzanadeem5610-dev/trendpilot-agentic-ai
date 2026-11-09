@@ -26,7 +26,15 @@ The same engine also runs **StudyBuddy**, a study-plan agent with notes, quizzes
 ## Results (10 test cases from the brief, real Gemma 3:4B runs)
 
 <!-- RESULTS:START -->
-*Filled in automatically by `scripts/build_report.py` after the Colab run.*
+| Metric | v1 baseline | v2 final agent |
+|---|---|---|
+| Average review score (0-10) | 7.29 | **8.21** |
+| Platform-rule violations (10 tests) | 15 | **2** |
+| Directly usable outputs | 3/10 | **9/10** |
+
+Model: `gemma3:4b` on Tesla T4, 15360 MiB - avg 36.5 s per request - 17 saved Markdown outputs. Full table: [tests/test_cases.md](tests/test_cases.md).
+
+![v1 vs v2](screenshots/test_scores_v1_vs_v2.png)
 <!-- RESULTS:END -->
 
 **v1** = baseline (simple prompts, fixed pipeline, no review loop) · **v2** = final agent.

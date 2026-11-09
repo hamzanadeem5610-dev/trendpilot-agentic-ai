@@ -1,0 +1,299 @@
+{
+  "mode": "content",
+  "request": {
+    "topic": "Open-source contribution",
+    "core_topic": "Open-source contribution",
+    "platform": "LinkedIn",
+    "tone": "Inspirational",
+    "output_type": "Post"
+  },
+  "created_at": "2026-11-04 07:54:53",
+  "model": "gemma3:4b",
+  "prompt_version": "v2",
+  "plan": [
+    {
+      "tool": "trend_idea_generator",
+      "reason": "Generate fresh content angles for LinkedIn focusing on open-source contributions for students and early-career professionals."
+    },
+    {
+      "tool": "caption_writer",
+      "reason": "Craft the LinkedIn post content, hook, and call to action based on the selected angle and provided guidelines."
+    },
+    {
+      "tool": "hashtag_generator",
+      "reason": "Generate relevant hashtags for the LinkedIn post."
+    },
+    {
+      "tool": "content_reviewer",
+      "reason": "Review the generated content for accuracy, tone, and adherence to platform guidelines."
+    },
+    {
+      "tool": "file_saver",
+      "reason": "Save the final content as a Markdown file and a JSON object."
+    }
+  ],
+  "plan_fixes": [],
+  "artifacts": {
+    "memory_hits": [],
+    "memory_notes": "",
+    "research": "How to Present Open-Source Contributions in Portfolio - LinkedIn: Learn some of the best ways to showcase your open-source contributions in your web development portfolio and resume. Use GitHub, blogs, newsletters, and more. || How to Make Valuable Open Source Contributions - LinkedIn: Learn how to choose, follow, document, test, and collaborate on open source software projects to improve your skills and reputation as a programmer. || How to List Open-Source Contributions and Side Projects on Your Resume: Learn how to effectively showcase open-source contributions and side projects on a software engineer resume. Includes before/after examples, formatting tips, an || Open Source Contributions on Resume - VisualCV: Learn how to effectively list open source contributions on your resume with real-world examples. Includes top open source contributions skills, sample resume ph || From Beginner",
+    "research_sources": [
+      "https://www.linkedin.com/advice/1/what-best-ways-present-open-source-contributions",
+      "https://www.linkedin.com/advice/1/what-best-ways-ensure-your-open-source-contributions",
+      "https://prismresume.com/blog/how-to-list-open-source-contributions-and-side-projects-on-your-resume",
+      "https://www.visualcv.com/open-source-contributions-on-resume/",
+      "https://dev.to/ltndat1/from-beginner-to-pro-the-ultimate-guide-to-contributing-to-open-source-4chn"
+    ],
+    "understanding": {
+      "target_audience": "Students and early-career tech professionals interested in open-source projects.",
+      "key_message": "Showcasing your open-source contributions is a powerful way to demonstrate your skills and build your reputation.",
+      "goal": "Educate and inspire individuals to highlight their open-source work.",
+      "specific_details": [
+        "Open-source contributions can be showcased using GitHub.",
+        "You can improve your skills and reputation through open-source projects.",
+        "Effective documentation is key to successful open-source collaboration.",
+        "Listing open-source contributions on a resume requires strategic formatting.",
+        "Real-world examples can help effectively showcase your work."
+      ],
+      "avoid": [
+        "Generic phrases like 'game-changer' or 'unlock your potential'.",
+        "Overly technical jargon.",
+        "Using overly formal language.",
+        "Making unsubstantiated claims about career advancement."
+      ]
+    },
+    "target_audience": "Students and early-career tech professionals looking to build their open-source portfolio and reputation.",
+    "ideas": [
+      {
+        "title": "The Unexpected Mentor",
+        "angle": "I spent months debugging a complex algorithm. Turns out, a senior developer gave me the *exact* solution in a single Slack message. 🤯",
+        "hook_idea": "Discover the surprising power of open-source community mentorship.",
+        "why_it_works": "Relatable anecdote about learning from experienced developers – taps into the desire for guidance. Highlights the collaborative nature of open source.",
+        "score": 8
+      },
+      {
+        "title": "Resume Redesign: Open Source Edition",
+        "angle": "My resume looked like a mess after listing my open-source contributions. There’s a better way! 🚀",
+        "hook_idea": "Learn how to strategically format open-source credits on your resume.",
+        "why_it_works": "Addresses a practical problem – resume formatting – directly relevant to the audience's immediate concerns. Focuses on showcasing skills effectively.",
+        "score": 9
+      },
+      {
+        "title": "Behind the Code: A Small Fix, Big Impact",
+        "angle": "Fixing a tiny typo in a popular library's documentation led to [your mAP score] improvement in a user's workflow. 🧐",
+        "hook_idea": "Small contributions can have a surprisingly large impact.",
+        "why_it_works": "Illustrates the value of even seemingly minor contributions. Uses a specific metric to demonstrate impact, framing it for a technical audience. ",
+        "score": 7
+      },
+      {
+        "title": "Documentation: The Secret Weapon",
+        "angle": "Effective documentation is key to successful open-source collaboration. I learned that the hard way...",
+        "hook_idea": "See how prioritizing documentation can transform your open-source journey.",
+        "why_it_works": "Highlights a critical, often overlooked aspect of open-source contributions.  Connects documentation directly to positive outcomes – collaboration and impact.",
+        "score": 6
+      },
+      {
+        "title": "GitHub Showcases: Level Up Your Portfolio",
+        "angle": "Open-source contributions can be showcased using GitHub. Let's talk about presenting them effectively.",
+        "hook_idea": "Showcase your skills and boost your reputation with a strong GitHub profile.",
+        "why_it_works": "Directly references the primary tool for showcasing open-source work. Provides a clear call to action – improve your GitHub profile.",
+        "score": 8
+      }
+    ],
+    "content_idea": {
+      "title": "Resume Redesign: Open Source Edition",
+      "angle": "My resume looked like a mess after listing my open-source contributions. There’s a better way! 🚀",
+      "hook_idea": "Learn how to strategically format open-source credits on your resume.",
+      "why_it_works": "Addresses a practical problem – resume formatting – directly relevant to the audience's immediate concerns. Focuses on showcasing skills effectively.",
+      "score": 9
+    },
+    "hook": "My resume looked like a chaotic list of projects – it needed a serious upgrade.",
+    "caption": "My resume looked like a chaotic list of projects – it needed a serious upgrade.\n\nI spent too long scrambling to fit my open-source contributions onto my resume. It felt… messy. 🚀\n\nHonestly, showcasing your work on open-source projects is a powerful way to demonstrate your skills and build your reputation. It’s about more than just listing what you’ve done – it’s about strategic presentation.\n\nEffective documentation is key to successful open-source collaboration. You can improve your skills and reputation through open-source projects. Listing open-source contributions on a resume requires strategic formatting. I’ve learned that a clear, concise approach is much more effective.\n\nReal-world examples can help effectively showcase your work. It’s about demonstrating how you’ve tackled challenges and contributed to something bigger. GitHub is your friend here – organize your contributions logically and link to them directly.\n\nI've spent some time refining my approach.  How are you currently presenting your open-source projects? What’s your biggest challenge in getting your work noticed?\n\nShare your favorite resources for showcasing open-source contributions in the comments!",
+    "call_to_action": "Share your favorite resources for showcasing open-source contributions in the comments!",
+    "hashtags": [
+      "#OpenSourceDevelopment",
+      "#ContributionStrategy",
+      "#GitHubPortfolio",
+      "#SoftwareEngineeringSkills",
+      "#ResumeFormatting"
+    ],
+    "review": {
+      "scores": {
+        "hook_strength": 8.0,
+        "clarity": 7.0,
+        "length_fit": 9.0,
+        "tone_fit": 9.0,
+        "hashtag_relevance": 8.0,
+        "platform_readiness": 8.5
+      },
+      "llm_overall": 8.3,
+      "overall": 8.3,
+      "verdict": "ready",
+      "issues": [
+        "The opening feels slightly self-focused. While relatable, it could be more immediately engaging for a broader audience.",
+        "The repetition of 'strategic' and 'effectively' feels a little heavy-handed."
+      ],
+      "suggestions": [
+        "Rephrase the opening to immediately address the value of open-source contributions for professionals.",
+        "Vary the language used to describe the benefits of showcasing open-source work – avoid repeating 'strategic' and 'effectively'."
+      ],
+      "rule_issues": [],
+      "rewrite": []
+    },
+    "saved_files": {
+      "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/open_source_contribution_linkedin_20261104_075453_post.md",
+      "json": "/content/agentic_ai_task_2/outputs/saved_results/open_source_contribution_linkedin_20261104_075453.json"
+    }
+  },
+  "review": {
+    "scores": {
+      "hook_strength": 8.0,
+      "clarity": 7.0,
+      "length_fit": 9.0,
+      "tone_fit": 9.0,
+      "hashtag_relevance": 8.0,
+      "platform_readiness": 8.5
+    },
+    "llm_overall": 8.3,
+    "overall": 8.3,
+    "verdict": "ready",
+    "issues": [
+      "The opening feels slightly self-focused. While relatable, it could be more immediately engaging for a broader audience.",
+      "The repetition of 'strategic' and 'effectively' feels a little heavy-handed."
+    ],
+    "suggestions": [
+      "Rephrase the opening to immediately address the value of open-source contributions for professionals.",
+      "Vary the language used to describe the benefits of showcasing open-source work – avoid repeating 'strategic' and 'effectively'."
+    ],
+    "rule_issues": [],
+    "rewrite": []
+  },
+  "revisions": 0,
+  "tools_used": [
+    "Simple Memory Tool",
+    "Web Trend Research (DuckDuckGo)",
+    "Trend Idea Generator",
+    "Caption Writer",
+    "Hashtag Generator",
+    "Content Reviewer"
+  ],
+  "trace": [
+    {
+      "t": "07:54:18",
+      "kind": "tool",
+      "name": "Simple Memory Tool",
+      "detail": {
+        "recalled_runs": 0,
+        "preferences": {
+          "favourite_platform": "LinkedIn",
+          "favourite_tone": "Funny"
+        }
+      },
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:54:19",
+      "kind": "tool",
+      "name": "Web Trend Research (DuckDuckGo)",
+      "detail": {
+        "results": 5,
+        "query": "Open-source contribution LinkedIn tips"
+      },
+      "seconds": 0.99,
+      "ok": true
+    },
+    {
+      "t": "07:54:23",
+      "kind": "step",
+      "name": "Understand goal",
+      "detail": {
+        "audience": "Students and early-career tech professionals interested in open-source projects."
+      },
+      "seconds": 3.93,
+      "ok": true
+    },
+    {
+      "t": "07:54:27",
+      "kind": "plan",
+      "name": "Planner agent",
+      "detail": "trend_idea_generator -> caption_writer -> hashtag_generator -> content_reviewer -> file_saver",
+      "seconds": 4.33,
+      "ok": true
+    },
+    {
+      "t": "07:54:40",
+      "kind": "tool",
+      "name": "Trend Idea Generator",
+      "detail": {
+        "angles": 5,
+        "selected": "Resume Redesign: Open Source Edition"
+      },
+      "seconds": 13.0,
+      "ok": true
+    },
+    {
+      "t": "07:54:46",
+      "kind": "tool",
+      "name": "Caption Writer",
+      "detail": {
+        "hook_words": 15,
+        "caption_words": 173
+      },
+      "seconds": 5.86,
+      "ok": true
+    },
+    {
+      "t": "07:54:47",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 5
+      },
+      "seconds": 1.38,
+      "ok": true
+    },
+    {
+      "t": "07:54:53",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 8.3,
+        "verdict": "ready",
+        "rule_issues": 0,
+        "rewrite": []
+      },
+      "seconds": 5.27,
+      "ok": true
+    }
+  ],
+  "saved_files": {
+    "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/open_source_contribution_linkedin_20261104_075453_post.md",
+    "json": "/content/agentic_ai_task_2/outputs/saved_results/open_source_contribution_linkedin_20261104_075453.json"
+  },
+  "final_output": {
+    "topic": "Open-source contribution",
+    "platform": "LinkedIn",
+    "tone": "Inspirational",
+    "content_idea": "Resume Redesign: Open Source Edition - My resume looked like a mess after listing my open-source contributions. There’s a better way! 🚀",
+    "target_audience": "Students and early-career tech professionals looking to build their open-source portfolio and reputation.",
+    "hook": "My resume looked like a chaotic list of projects – it needed a serious upgrade.",
+    "caption": "My resume looked like a chaotic list of projects – it needed a serious upgrade.\n\nI spent too long scrambling to fit my open-source contributions onto my resume. It felt… messy. 🚀\n\nHonestly, showcasing your work on open-source projects is a powerful way to demonstrate your skills and build your reputation. It’s about more than just listing what you’ve done – it’s about strategic presentation.\n\nEffective documentation is key to successful open-source collaboration. You can improve your skills and reputation through open-source projects. Listing open-source contributions on a resume requires strategic formatting. I’ve learned that a clear, concise approach is much more effective.\n\nReal-world examples can help effectively showcase your work. It’s about demonstrating how you’ve tackled challenges and contributed to something bigger. GitHub is your friend here – organize your contributions logically and link to them directly.\n\nI've spent some time refining my approach.  How are you currently presenting your open-source projects? What’s your biggest challenge in getting your work noticed?\n\nShare your favorite resources for showcasing open-source contributions in the comments!",
+    "hashtags": [
+      "#OpenSourceDevelopment",
+      "#ContributionStrategy",
+      "#GitHubPortfolio",
+      "#SoftwareEngineeringSkills",
+      "#ResumeFormatting"
+    ],
+    "reel_script": "",
+    "title": "",
+    "thumbnail_text": "",
+    "review_comments": [
+      "Rephrase the opening to immediately address the value of open-source contributions for professionals.",
+      "Vary the language used to describe the benefits of showcasing open-source work – avoid repeating 'strategic' and 'effectively'."
+    ],
+    "review_score": 8.3,
+    "saved_file": "/content/agentic_ai_task_2/outputs/generated_posts/open_source_contribution_linkedin_20261104_075453_post.md"
+  }
+}

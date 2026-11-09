@@ -1,0 +1,293 @@
+{
+  "mode": "content",
+  "request": {
+    "topic": "Debugging FastAPI",
+    "core_topic": "Debugging FastAPI",
+    "platform": "X / Twitter",
+    "tone": "Funny",
+    "output_type": "Short post"
+  },
+  "created_at": "2026-11-04 07:54:18",
+  "model": "gemma3:4b",
+  "prompt_version": "v2",
+  "plan": [
+    {
+      "tool": "trend_idea_generator",
+      "reason": "Generate fresh, viral content angles for debugging FastAPI on X."
+    },
+    {
+      "tool": "caption_writer",
+      "reason": "Craft the X post with a funny hook, caption, and call to action based on the selected angle."
+    },
+    {
+      "tool": "hashtag_generator",
+      "reason": "Generate relevant hashtags for the post, considering breadth and niche relevance."
+    },
+    {
+      "tool": "content_reviewer",
+      "reason": "Review the post for clarity, tone, length, and hashtag relevance."
+    },
+    {
+      "tool": "file_saver",
+      "reason": "Save the final post as Markdown and JSON."
+    }
+  ],
+  "plan_fixes": [],
+  "artifacts": {
+    "memory_hits": [],
+    "memory_notes": "",
+    "research": "FastAPI Debugging Guide: Tips & Examples for Developers: Debugging is a critical aspect of developing robust and efficient web applications using FastAPI. In this tutorial, we'll explore various techniques and strateg || Debugging - FastAPI: FastAPI Learn Tutorial - User Guide Debugging You can connect the debugger in your editor, for example with Visual Studio Code or PyCharm. Call uvicorn In your  || Debugging Techniques | Kludex/fastapi-tips | DeepWiki: Overview of Debugging Challenges in FastAPI FastAPI's asynchronous nature introduces unique debugging challenges compared to traditional synchronous web framewo || FastAPI (@FastAPI) / X: FastAPI framework, high performance, easy to learn, fast to code, ready for production. 🚀 Web APIs with Python type hints. 🐍 By @tiangolo 🤓 || Kludex/fastapi-tips: FastAPI Tips by The FastAPI Expert! - GitHub: FastAPI Tips by The FastAPI Expert! Contr",
+    "research_sources": [
+      "https://www.getorchestra.io/guides/fastapi-debugging-a-comprehensive-guide-with-examples",
+      "https://fastapi.tiangolo.com/tutorial/debugging/",
+      "https://deepwiki.com/Kludex/fastapi-tips/8-debugging-techniques",
+      "https://x.com/FastAPI",
+      "https://github.com/kludex/fastapi-tips"
+    ],
+    "understanding": {
+      "target_audience": "FastAPI developers, Python developers, students learning FastAPI",
+      "key_message": "FastAPI debugging is a beast, but you can tame it with VS Code or Uvicorn.",
+      "goal": "entertain",
+      "specific_details": [
+        "FastAPI uses Python type hints",
+        "Debugging can be done with VS Code or PyCharm",
+        "FastAPI is high performance",
+        "FastAPI is easy to learn",
+        "FastAPI is ready for production"
+      ],
+      "avoid": [
+        "generic phrases",
+        "metrics",
+        "quotes",
+        "cliches"
+      ]
+    },
+    "target_audience": "FastAPI developers and Python developers learning FastAPI",
+    "ideas": [
+      {
+        "title": "FastAPI Debugging SOS",
+        "angle": "Confess: FastAPI debugging feels like wrestling a Python dragon. 🐉",
+        "hook_idea": "VS Code & Uvicorn to the rescue. Seriously.",
+        "why_it_works": "Relatable frustration + quick, actionable advice. Uses emoji for engagement.",
+        "score": 8
+      },
+      {
+        "title": "FastAPI Debugging: It's Not Rocket Science (But Feels Like It)",
+        "angle": "FastAPI's performance is amazing, but debugging can be a beast. 🤯",
+        "hook_idea": "Leverage VS Code or Uvicorn for deep dives.",
+        "why_it_works": "Plays on the contrast of FastAPI's strengths and the debugging struggle.",
+        "score": 7
+      },
+      {
+        "title": "FastAPI Debugging: Don’t Panic!",
+        "angle": "Debugging FastAPI? It's easier than you think. 💡",
+        "hook_idea": "Use VS Code or Uvicorn—start now!",
+        "why_it_works": "Direct reassurance and immediate call to action.",
+        "score": 6
+      },
+      {
+        "title": "FastAPI Debugging: A Quick Win",
+        "angle": "Debugging FastAPI?  It's a fast framework, but debugging needs a strategy.",
+        "hook_idea": "VS Code or Uvicorn – your first steps!",
+        "why_it_works": "Focuses on a small, achievable step for beginners.",
+        "score": 5
+      },
+      {
+        "title": "FastAPI Debugging: Level Up Your Skills",
+        "angle": "FastAPI’s type hints are your friend. 🤝",
+        "hook_idea": "Master debugging with VS Code or Uvicorn.",
+        "why_it_works": "Highlights key FastAPI features and links them to debugging.",
+        "score": 4
+      }
+    ],
+    "content_idea": {
+      "title": "FastAPI Debugging SOS",
+      "angle": "Confess: FastAPI debugging feels like wrestling a Python dragon. 🐉",
+      "hook_idea": "VS Code & Uvicorn to the rescue. Seriously.",
+      "why_it_works": "Relatable frustration + quick, actionable advice. Uses emoji for engagement.",
+      "score": 8
+    },
+    "hook": "FastAPI debugging feels like wrestling a Python dragon. 🐉",
+    "caption": "FastAPI debugging is a beast, but VS Code or Uvicorn makes it manageable. Seriously, FastAPI is ready for production and easy to learn. Let's tame this thing!",
+    "call_to_action": "What's your go-to debugging method?",
+    "hashtags": [
+      "#FastAPIdev",
+      "#PythonDebugging"
+    ],
+    "review": {
+      "scores": {
+        "hook_strength": 8.0,
+        "clarity": 7.0,
+        "length_fit": 9.0,
+        "tone_fit": 9.0,
+        "hashtag_relevance": 8.0,
+        "platform_readiness": 8.5
+      },
+      "llm_overall": 8.2,
+      "overall": 8.2,
+      "verdict": "ready",
+      "issues": [
+        "The caption is a little verbose. It could be punchier.",
+        "The dragon metaphor is a bit overused."
+      ],
+      "suggestions": [
+        "Trim the caption to focus on the core experience.",
+        "Consider a more specific, relatable analogy."
+      ],
+      "rule_issues": [],
+      "rewrite": []
+    },
+    "saved_files": {
+      "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/debugging_fastapi_x_twitter_20261104_075418_post.md",
+      "json": "/content/agentic_ai_task_2/outputs/saved_results/debugging_fastapi_x_twitter_20261104_075418.json"
+    }
+  },
+  "review": {
+    "scores": {
+      "hook_strength": 8.0,
+      "clarity": 7.0,
+      "length_fit": 9.0,
+      "tone_fit": 9.0,
+      "hashtag_relevance": 8.0,
+      "platform_readiness": 8.5
+    },
+    "llm_overall": 8.2,
+    "overall": 8.2,
+    "verdict": "ready",
+    "issues": [
+      "The caption is a little verbose. It could be punchier.",
+      "The dragon metaphor is a bit overused."
+    ],
+    "suggestions": [
+      "Trim the caption to focus on the core experience.",
+      "Consider a more specific, relatable analogy."
+    ],
+    "rule_issues": [],
+    "rewrite": []
+  },
+  "revisions": 0,
+  "tools_used": [
+    "Simple Memory Tool",
+    "Web Trend Research (DuckDuckGo)",
+    "Trend Idea Generator",
+    "Caption Writer",
+    "Hashtag Generator",
+    "Content Reviewer"
+  ],
+  "trace": [
+    {
+      "t": "07:53:49",
+      "kind": "tool",
+      "name": "Simple Memory Tool",
+      "detail": {
+        "recalled_runs": 0,
+        "preferences": {
+          "favourite_platform": "LinkedIn",
+          "favourite_tone": "Professional"
+        }
+      },
+      "seconds": 0.0,
+      "ok": true
+    },
+    {
+      "t": "07:53:50",
+      "kind": "tool",
+      "name": "Web Trend Research (DuckDuckGo)",
+      "detail": {
+        "results": 5,
+        "query": "Debugging FastAPI X / Twitter tips"
+      },
+      "seconds": 1.43,
+      "ok": true
+    },
+    {
+      "t": "07:53:53",
+      "kind": "step",
+      "name": "Understand goal",
+      "detail": {
+        "audience": "FastAPI developers, Python developers, students learning FastAPI"
+      },
+      "seconds": 2.89,
+      "ok": true
+    },
+    {
+      "t": "07:53:57",
+      "kind": "plan",
+      "name": "Planner agent",
+      "detail": "trend_idea_generator -> caption_writer -> hashtag_generator -> content_reviewer -> file_saver",
+      "seconds": 4.43,
+      "ok": true
+    },
+    {
+      "t": "07:54:08",
+      "kind": "tool",
+      "name": "Trend Idea Generator",
+      "detail": {
+        "angles": 5,
+        "selected": "FastAPI Debugging SOS"
+      },
+      "seconds": 10.58,
+      "ok": true
+    },
+    {
+      "t": "07:54:12",
+      "kind": "tool",
+      "name": "Caption Writer",
+      "detail": {
+        "hook_words": 9,
+        "caption_words": 27
+      },
+      "seconds": 4.48,
+      "ok": true
+    },
+    {
+      "t": "07:54:13",
+      "kind": "tool",
+      "name": "Hashtag Generator",
+      "detail": {
+        "hashtags": 2
+      },
+      "seconds": 0.9,
+      "ok": true
+    },
+    {
+      "t": "07:54:18",
+      "kind": "tool",
+      "name": "Content Reviewer",
+      "detail": {
+        "overall": 8.2,
+        "verdict": "ready",
+        "rule_issues": 0,
+        "rewrite": []
+      },
+      "seconds": 4.62,
+      "ok": true
+    }
+  ],
+  "saved_files": {
+    "markdown": "/content/agentic_ai_task_2/outputs/generated_posts/debugging_fastapi_x_twitter_20261104_075418_post.md",
+    "json": "/content/agentic_ai_task_2/outputs/saved_results/debugging_fastapi_x_twitter_20261104_075418.json"
+  },
+  "final_output": {
+    "topic": "Debugging FastAPI",
+    "platform": "X / Twitter",
+    "tone": "Funny",
+    "content_idea": "FastAPI Debugging SOS - Confess: FastAPI debugging feels like wrestling a Python dragon. 🐉",
+    "target_audience": "FastAPI developers and Python developers learning FastAPI",
+    "hook": "FastAPI debugging feels like wrestling a Python dragon. 🐉",
+    "caption": "FastAPI debugging is a beast, but VS Code or Uvicorn makes it manageable. Seriously, FastAPI is ready for production and easy to learn. Let's tame this thing!",
+    "hashtags": [
+      "#FastAPIdev",
+      "#PythonDebugging"
+    ],
+    "reel_script": "",
+    "title": "",
+    "thumbnail_text": "",
+    "review_comments": [
+      "Trim the caption to focus on the core experience.",
+      "Consider a more specific, relatable analogy."
+    ],
+    "review_score": 8.2,
+    "saved_file": "/content/agentic_ai_task_2/outputs/generated_posts/debugging_fastapi_x_twitter_20261104_075418_post.md"
+  }
+}
